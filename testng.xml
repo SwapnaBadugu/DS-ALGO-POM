@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  >
+	<test name="Test" group-by-instances="true">
+		<classes>
+			<class name="dsAlgo.Pages.Test.ArrayPageTest"></class>
+			<class name="dsAlgo.Pages.Test.HomePageTest"></class>
+			<class name="dsAlgo.Pages.Test.DataStructurePageTest"></class>
+			<class name="dsAlgo.Pages.Test.GraphPageTest"></class>
+			<class name="dsAlgo.Pages.Test.LinkedListPageTest"></class>
+			<class name="dsAlgo.Pages.Test.QueuePageTest"></class>
+			<class name="dsAlgo.Pages.Test.SigninPageTest"></class>
+			<class name="dsAlgo.Pages.Test.StackPageTest"></class>
+			<class name="dsAlgo.Pages.Test.TreePageTest"></class>
+		</classes>
+	</test> <!-- Test thread-count="" parallel="classes" thread-count="55" -->
+</suite> <!-- Suite -->

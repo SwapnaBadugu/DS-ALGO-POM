@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="55" passed="53" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-06T06:44:17 EDT" name="Suite" finished-at="2022-05-06T06:54:04 EDT" duration-ms="587033">
+    <groups>
+    </groups>
+    <test started-at="2022-05-06T06:44:17 EDT" name="Test" finished-at="2022-05-06T06:54:04 EDT" duration-ms="587033">
+      <class name="dsAlgo.Pages.Test.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:05 EDT" name="setup" finished-at="2022-05-06T06:46:12 EDT" duration-ms="7475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateTextTest()[pri:1, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:12 EDT" name="ValidateTextTest" description="verifying Signin page title test" finished-at="2022-05-06T06:46:12 EDT" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTextTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:12 EDT" name="tearDown" finished-at="2022-05-06T06:46:13 EDT" duration-ms="1043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:13 EDT" name="setup" finished-at="2022-05-06T06:46:21 EDT" duration-ms="7515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonDataStructuresPage()[pri:2, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:21 EDT" name="clickonDataStructuresPage" description="verifying successful click on data Structures in HomePage" finished-at="2022-05-06T06:46:21 EDT" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonDataStructuresPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:22 EDT" name="tearDown" finished-at="2022-05-06T06:46:23 EDT" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:23 EDT" name="setup" finished-at="2022-05-06T06:46:30 EDT" duration-ms="7326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonArrayPage()[pri:3, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:30 EDT" name="clickonArrayPage" description="verifying successful click on Array in HomePage" finished-at="2022-05-06T06:46:31 EDT" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonArrayPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:31 EDT" name="tearDown" finished-at="2022-05-06T06:46:32 EDT" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:32 EDT" name="setup" finished-at="2022-05-06T06:46:39 EDT" duration-ms="7099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonLinkedListPage()[pri:4, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:39 EDT" name="clickonLinkedListPage" description="verifying successful click on LinkedList in HomePage" finished-at="2022-05-06T06:46:39 EDT" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonLinkedListPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:39 EDT" name="tearDown" finished-at="2022-05-06T06:46:40 EDT" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:40 EDT" name="setup" finished-at="2022-05-06T06:46:48 EDT" duration-ms="7772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonStackPage()[pri:5, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:48 EDT" name="clickonStackPage" description="verifying successful click stack in HomePage" finished-at="2022-05-06T06:46:49 EDT" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonStackPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:49 EDT" name="tearDown" finished-at="2022-05-06T06:46:50 EDT" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:50 EDT" name="setup" finished-at="2022-05-06T06:46:57 EDT" duration-ms="7468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonQueuePage()[pri:6, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:57 EDT" name="clickonQueuePage" description="verifying successful click on queue in HomePage" finished-at="2022-05-06T06:46:58 EDT" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonQueuePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:58 EDT" name="tearDown" finished-at="2022-05-06T06:46:59 EDT" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:46:59 EDT" name="setup" finished-at="2022-05-06T06:47:06 EDT" duration-ms="7238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonGraphPage()[pri:7, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:47:06 EDT" name="clickonGraphPage" description="verifying successful click on graph in HomePage" finished-at="2022-05-06T06:47:07 EDT" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonGraphPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:47:07 EDT" name="tearDown" finished-at="2022-05-06T06:47:08 EDT" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:47:08 EDT" name="setup" finished-at="2022-05-06T06:47:15 EDT" duration-ms="7187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickonTreePage()[pri:8, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:47:15 EDT" name="clickonTreePage" description="verifying successful click on tree in HomePage" finished-at="2022-05-06T06:47:16 EDT" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonTreePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dsAlgo.Pages.Test.HomePageTest@30457e14]" started-at="2022-05-06T06:47:16 EDT" name="tearDown" finished-at="2022-05-06T06:47:17 EDT" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dsAlgo.Pages.Test.HomePageTest -->
+      <class name="dsAlgo.Pages.Test.ArrayPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:44:17 EDT" name="setup" finished-at="2022-05-06T06:44:29 EDT" duration-ms="12181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitleTest()[pri:1, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:44:29 EDT" name="verifyTitleTest" description="verifying Array page title test" finished-at="2022-05-06T06:44:30 EDT" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:44:30 EDT" name="teardown" finished-at="2022-05-06T06:44:31 EDT" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:44:31 EDT" name="setup" finished-at="2022-05-06T06:44:39 EDT" duration-ms="8528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getTitleArrayinpythonTest()[pri:2, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:44:39 EDT" name="getTitleArrayinpythonTest" description="verifying Arrayinpython title in Array page test" finished-at="2022-05-06T06:44:41 EDT" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleArrayinpythonTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:44:41 EDT" name="teardown" finished-at="2022-05-06T06:44:42 EDT" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:44:42 EDT" name="setup" finished-at="2022-05-06T06:44:51 EDT" duration-ms="8954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ArraysinPythonRunTest()[pri:3, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:44:51 EDT" name="ArraysinPythonRunTest" description="verifying ArraysinPython actions test" finished-at="2022-05-06T06:44:55 EDT" duration-ms="3352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArraysinPythonRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:44:55 EDT" name="teardown" finished-at="2022-05-06T06:44:56 EDT" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:44:56 EDT" name="setup" finished-at="2022-05-06T06:45:05 EDT" duration-ms="8990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getTitleArrayusingListTest()[pri:4, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:05 EDT" name="getTitleArrayusingListTest" description="verifying ArrayusingList title in Array page test" finished-at="2022-05-06T06:45:06 EDT" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleArrayusingListTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:06 EDT" name="teardown" finished-at="2022-05-06T06:45:07 EDT" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:07 EDT" name="setup" finished-at="2022-05-06T06:45:15 EDT" duration-ms="8155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ArraysusingListRunTest()[pri:5, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:15 EDT" name="ArraysusingListRunTest" description="verifying ArraysusingList actions test" finished-at="2022-05-06T06:45:18 EDT" duration-ms="3140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArraysusingListRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:18 EDT" name="teardown" finished-at="2022-05-06T06:45:19 EDT" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:19 EDT" name="setup" finished-at="2022-05-06T06:45:28 EDT" duration-ms="8717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getTitleBasicOperationsinListTest()[pri:6, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:28 EDT" name="getTitleBasicOperationsinListTest" description="verifying BasicOpertaionsinList title in Array page test" finished-at="2022-05-06T06:45:29 EDT" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleBasicOperationsinListTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:29 EDT" name="teardown" finished-at="2022-05-06T06:45:30 EDT" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:30 EDT" name="setup" finished-at="2022-05-06T06:45:38 EDT" duration-ms="8002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BasicOperationsinListRunTest()[pri:7, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:38 EDT" name="BasicOperationsinListRunTest" description="verifying BasicOperationsinList action test" finished-at="2022-05-06T06:45:41 EDT" duration-ms="3109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicOperationsinListRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:41 EDT" name="teardown" finished-at="2022-05-06T06:45:42 EDT" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:42 EDT" name="setup" finished-at="2022-05-06T06:45:51 EDT" duration-ms="8744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getTitleApplicationsofArrayTest()[pri:8, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:51 EDT" name="getTitleApplicationsofArrayTest" description="To check ApplicationsofArray  title in Array page test" finished-at="2022-05-06T06:45:52 EDT" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleApplicationsofArrayTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:52 EDT" name="teardown" finished-at="2022-05-06T06:45:53 EDT" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:45:53 EDT" name="setup" finished-at="2022-05-06T06:46:00 EDT" duration-ms="7887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ApplicationsofArrayRunTest()[pri:9, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:46:00 EDT" name="ApplicationsofArrayRunTest" description="verifying ApplicationsofArray actions test" finished-at="2022-05-06T06:46:03 EDT" duration-ms="2985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationsofArrayRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.ArrayPageTest@2fb68ec6]" started-at="2022-05-06T06:46:04 EDT" name="teardown" finished-at="2022-05-06T06:46:05 EDT" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- dsAlgo.Pages.Test.ArrayPageTest -->
+      <class name="dsAlgo.Pages.Test.GraphPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.GraphPageTest@4e7095ac]" started-at="2022-05-06T06:47:38 EDT" name="setup" finished-at="2022-05-06T06:47:46 EDT" duration-ms="7932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitleTest()[pri:1, instance:dsAlgo.Pages.Test.GraphPageTest@4e7095ac]" started-at="2022-05-06T06:47:46 EDT" name="verifyTitleTest" description="verifying Graph title in GrpahPage test" finished-at="2022-05-06T06:47:46 EDT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.GraphPageTest@4e7095ac]" started-at="2022-05-06T06:47:47 EDT" name="teardown" finished-at="2022-05-06T06:47:47 EDT" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.GraphPageTest@4e7095ac]" started-at="2022-05-06T06:47:48 EDT" name="setup" finished-at="2022-05-06T06:47:57 EDT" duration-ms="9915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="graphElementRunTest()[pri:2, instance:dsAlgo.Pages.Test.GraphPageTest@4e7095ac]" started-at="2022-05-06T06:47:57 EDT" name="graphElementRunTest" description="verifying graph actions in Graph test" finished-at="2022-05-06T06:48:00 EDT" duration-ms="3011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- graphElementRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.GraphPageTest@4e7095ac]" started-at="2022-05-06T06:48:00 EDT" name="teardown" finished-at="2022-05-06T06:48:01 EDT" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.GraphPageTest@4e7095ac]" started-at="2022-05-06T06:48:02 EDT" name="setup" finished-at="2022-05-06T06:48:09 EDT" duration-ms="7647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="graphRepresentationsRunTest()[pri:3, instance:dsAlgo.Pages.Test.GraphPageTest@4e7095ac]" started-at="2022-05-06T06:48:09 EDT" name="graphRepresentationsRunTest" description="verifying graphRepresentations actions in Graph test" finished-at="2022-05-06T06:48:12 EDT" duration-ms="2763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- graphRepresentationsRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.GraphPageTest@4e7095ac]" started-at="2022-05-06T06:48:12 EDT" name="teardown" finished-at="2022-05-06T06:48:13 EDT" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- dsAlgo.Pages.Test.GraphPageTest -->
+      <class name="dsAlgo.Pages.Test.StackPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.StackPageTest@589b028e]" started-at="2022-05-06T06:50:34 EDT" name="setup" finished-at="2022-05-06T06:50:39 EDT" duration-ms="5434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitleTest()[pri:1, instance:dsAlgo.Pages.Test.StackPageTest@589b028e]" started-at="2022-05-06T06:50:39 EDT" name="verifyTitleTest" description="verifying Stack title in StackPage test" finished-at="2022-05-06T06:50:39 EDT" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.StackPageTest@589b028e]" started-at="2022-05-06T06:50:39 EDT" name="teardown" finished-at="2022-05-06T06:50:40 EDT" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.StackPageTest@589b028e]" started-at="2022-05-06T06:50:40 EDT" name="setup" finished-at="2022-05-06T06:50:46 EDT" duration-ms="6420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="operationsinStackRunTest()[pri:2, instance:dsAlgo.Pages.Test.StackPageTest@589b028e]" started-at="2022-05-06T06:50:46 EDT" name="operationsinStackRunTest" description="verifying operationsinStack actions in Stack test" finished-at="2022-05-06T06:50:50 EDT" duration-ms="3480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationsinStackRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.StackPageTest@589b028e]" started-at="2022-05-06T06:50:50 EDT" name="teardown" finished-at="2022-05-06T06:50:51 EDT" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.StackPageTest@589b028e]" started-at="2022-05-06T06:50:51 EDT" name="setup" finished-at="2022-05-06T06:50:58 EDT" duration-ms="7401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="implementationRunTest()[pri:3, instance:dsAlgo.Pages.Test.StackPageTest@589b028e]" started-at="2022-05-06T06:50:58 EDT" name="implementationRunTest" description="verifying implementation actions in Stack test" finished-at="2022-05-06T06:51:01 EDT" duration-ms="2717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- implementationRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.StackPageTest@589b028e]" started-at="2022-05-06T06:51:01 EDT" name="teardown" finished-at="2022-05-06T06:51:02 EDT" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.StackPageTest@589b028e]" started-at="2022-05-06T06:51:02 EDT" name="setup" finished-at="2022-05-06T06:51:10 EDT" duration-ms="7296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="applicationsRunTest()[pri:4, instance:dsAlgo.Pages.Test.StackPageTest@589b028e]" started-at="2022-05-06T06:51:10 EDT" name="applicationsRunTest" description="verifying applications actions in Stack test" finished-at="2022-05-06T06:51:12 EDT" duration-ms="2663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationsRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.StackPageTest@589b028e]" started-at="2022-05-06T06:51:12 EDT" name="teardown" finished-at="2022-05-06T06:51:13 EDT" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- dsAlgo.Pages.Test.StackPageTest -->
+      <class name="dsAlgo.Pages.Test.SigninPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.SigninPageTest@14c053c6]" started-at="2022-05-06T06:50:23 EDT" name="setup" finished-at="2022-05-06T06:50:26 EDT" duration-ms="3623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateTextTest()[pri:1, instance:dsAlgo.Pages.Test.SigninPageTest@14c053c6]" started-at="2022-05-06T06:50:26 EDT" name="ValidateTextTest" description="verifying Signin page title test" finished-at="2022-05-06T06:50:26 EDT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTextTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dsAlgo.Pages.Test.SigninPageTest@14c053c6]" started-at="2022-05-06T06:50:26 EDT" name="tearDown" finished-at="2022-05-06T06:50:27 EDT" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.SigninPageTest@14c053c6]" started-at="2022-05-06T06:50:27 EDT" name="setup" finished-at="2022-05-06T06:50:32 EDT" duration-ms="4361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SigninPageTest(dsAlgo.Entities.UserProfileInfo)[pri:2, instance:dsAlgo.Pages.Test.SigninPageTest@14c053c6]" started-at="2022-05-06T06:50:32 EDT" name="SigninPageTest" description="login into app test" data-provider="Credentials" finished-at="2022-05-06T06:50:33 EDT" duration-ms="1373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsAlgo.Entities.UserProfileInfo@16021f6e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dsAlgo.Pages.Test.SigninPageTest@14c053c6]" started-at="2022-05-06T06:50:33 EDT" name="tearDown" finished-at="2022-05-06T06:50:34 EDT" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dsAlgo.Pages.Test.SigninPageTest -->
+      <class name="dsAlgo.Pages.Test.DataStructurePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.DataStructurePageTest@6105f8a3]" started-at="2022-05-06T06:47:17 EDT" name="setup" finished-at="2022-05-06T06:47:25 EDT" duration-ms="8145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitleTest()[pri:1, instance:dsAlgo.Pages.Test.DataStructurePageTest@6105f8a3]" started-at="2022-05-06T06:47:25 EDT" name="verifyTitleTest" description="verifying DataStructure page title test" finished-at="2022-05-06T06:47:25 EDT" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.DataStructurePageTest@6105f8a3]" started-at="2022-05-06T06:47:25 EDT" name="teardown" finished-at="2022-05-06T06:47:26 EDT" duration-ms="981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.DataStructurePageTest@6105f8a3]" started-at="2022-05-06T06:47:26 EDT" name="setup" finished-at="2022-05-06T06:47:34 EDT" duration-ms="7825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dataStructureTest()[pri:2, instance:dsAlgo.Pages.Test.DataStructurePageTest@6105f8a3]" started-at="2022-05-06T06:47:34 EDT" name="dataStructureTest" description="verifying DataStructure page actions test" finished-at="2022-05-06T06:47:37 EDT" duration-ms="3145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataStructureTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.DataStructurePageTest@6105f8a3]" started-at="2022-05-06T06:47:37 EDT" name="teardown" finished-at="2022-05-06T06:47:38 EDT" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- dsAlgo.Pages.Test.DataStructurePageTest -->
+      <class name="dsAlgo.Pages.Test.LinkedListPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:48:13 EDT" name="setup" finished-at="2022-05-06T06:48:21 EDT" duration-ms="8251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitleTest()[pri:1, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:48:21 EDT" name="verifyTitleTest" description="verifying Linked List title in Linked ListPage test" finished-at="2022-05-06T06:48:22 EDT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:48:22 EDT" name="teardown" finished-at="2022-05-06T06:48:23 EDT" duration-ms="1048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:48:23 EDT" name="setup" finished-at="2022-05-06T06:48:31 EDT" duration-ms="8620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="IntroductionRunTest()[pri:2, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:48:31 EDT" name="IntroductionRunTest" description="verifying Introduction actions in LinkedListPage test" finished-at="2022-05-06T06:48:34 EDT" duration-ms="2842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntroductionRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:48:34 EDT" name="teardown" finished-at="2022-05-06T06:48:35 EDT" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:48:35 EDT" name="setup" finished-at="2022-05-06T06:48:43 EDT" duration-ms="8113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="creatingLinkedLIstRunTest()[pri:3, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:48:43 EDT" name="creatingLinkedLIstRunTest" description="verifying creatingLinkedLIst actions in LinkedListPage test" finished-at="2022-05-06T06:48:46 EDT" duration-ms="2847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingLinkedLIstRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:48:46 EDT" name="teardown" finished-at="2022-05-06T06:48:47 EDT" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:48:47 EDT" name="setup" finished-at="2022-05-06T06:48:55 EDT" duration-ms="7992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="typesofLinkedListRunTest()[pri:4, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:48:55 EDT" name="typesofLinkedListRunTest" description="verifying typesofLinkedList actions in LinkedListPage test" finished-at="2022-05-06T06:48:58 EDT" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typesofLinkedListRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:48:58 EDT" name="teardown" finished-at="2022-05-06T06:48:59 EDT" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:48:59 EDT" name="setup" finished-at="2022-05-06T06:49:07 EDT" duration-ms="7310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="implementLinkedListpythonRunTest()[pri:5, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:49:07 EDT" name="implementLinkedListpythonRunTest" description="verifying implementLinkedListpython actions in LinkedListPage test" finished-at="2022-05-06T06:49:17 EDT" duration-ms="10693" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'VENKAT-LAPPY', ip: '10.0.0.161', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68c91a89ca8bfb16fc15838b44401d39, findElement {using=link text, value=Try here>>>}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62297/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68c91a89ca8bfb16fc15838b44401d39]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Try here>>>"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'VENKAT-LAPPY', ip: '10.0.0.161', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68c91a89ca8bfb16fc15838b44401d39, findElement {using=link text, value=Try here>>>}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62297/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68c91a89ca8bfb16fc15838b44401d39
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+at dsAlgo.Pages.LinkedListPage.implementLinkedListpythonRun(LinkedListPage.java:123)
+at dsAlgo.Pages.Test.LinkedListPageTest.implementLinkedListpythonRunTest(LinkedListPageTest.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- implementLinkedListpythonRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:49:17 EDT" name="teardown" finished-at="2022-05-06T06:49:19 EDT" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:49:19 EDT" name="setup" finished-at="2022-05-06T06:49:25 EDT" duration-ms="6133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InsertionElementRunTest()[pri:6, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:49:25 EDT" name="InsertionElementRunTest" description="verifying InsertionElement actions in LinkedListPage test" finished-at="2022-05-06T06:49:27 EDT" duration-ms="1941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsertionElementRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:49:27 EDT" name="teardown" finished-at="2022-05-06T06:49:28 EDT" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:49:28 EDT" name="setup" finished-at="2022-05-06T06:49:34 EDT" duration-ms="6052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="traversalRunTest()[pri:6, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:49:34 EDT" name="traversalRunTest" description="verifying traversal actions in LinkedListPage test" finished-at="2022-05-06T06:49:36 EDT" duration-ms="1626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- traversalRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:49:36 EDT" name="teardown" finished-at="2022-05-06T06:49:36 EDT" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:49:36 EDT" name="setup" finished-at="2022-05-06T06:49:42 EDT" duration-ms="5398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deletionRunTest()[pri:7, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:49:42 EDT" name="deletionRunTest" description="verifying deletion actions in LinkedListPage test" finished-at="2022-05-06T06:49:44 EDT" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletionRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.LinkedListPageTest@1162410a]" started-at="2022-05-06T06:49:44 EDT" name="teardown" finished-at="2022-05-06T06:49:44 EDT" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- dsAlgo.Pages.Test.LinkedListPageTest -->
+      <class name="dsAlgo.Pages.Test.QueuePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:49:44 EDT" name="setup" finished-at="2022-05-06T06:49:50 EDT" duration-ms="5727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitleTest()[pri:1, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:49:50 EDT" name="verifyTitleTest" description="verifying Queue title in QueuePage test" finished-at="2022-05-06T06:49:50 EDT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:49:50 EDT" name="teardown" finished-at="2022-05-06T06:49:51 EDT" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:49:51 EDT" name="setup" finished-at="2022-05-06T06:49:56 EDT" duration-ms="5581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ImplementationofQueueinPythonRunTest()[pri:2, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:49:56 EDT" name="ImplementationofQueueinPythonRunTest" description="verifying ImplementationofQueueinPython actions in Queue test" finished-at="2022-05-06T06:49:58 EDT" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImplementationofQueueinPythonRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:49:58 EDT" name="teardown" finished-at="2022-05-06T06:49:59 EDT" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:49:59 EDT" name="setup" finished-at="2022-05-06T06:50:05 EDT" duration-ms="5932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ImplementationusingcollectionsRunTest()[pri:3, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:50:05 EDT" name="ImplementationusingcollectionsRunTest" description="verifying Implementationusingcollections actions in Queue test" finished-at="2022-05-06T06:50:06 EDT" duration-ms="1730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImplementationusingcollectionsRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:50:06 EDT" name="teardown" finished-at="2022-05-06T06:50:07 EDT" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:50:07 EDT" name="setup" finished-at="2022-05-06T06:50:12 EDT" duration-ms="5293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ImplementationusingarrayRunTest()[pri:4, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:50:12 EDT" name="ImplementationusingarrayRunTest" description="verifying Implementationusingarray actions in Queue test" finished-at="2022-05-06T06:50:14 EDT" duration-ms="1612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImplementationusingarrayRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:50:14 EDT" name="teardown" finished-at="2022-05-06T06:50:15 EDT" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:50:15 EDT" name="setup" finished-at="2022-05-06T06:50:21 EDT" duration-ms="5907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="queueOperationsRunTest()[pri:5, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:50:21 EDT" name="queueOperationsRunTest" description="verifying queueOperations actions in Queue test" finished-at="2022-05-06T06:50:22 EDT" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queueOperationsRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.QueuePageTest@3f3ddbd9]" started-at="2022-05-06T06:50:22 EDT" name="teardown" finished-at="2022-05-06T06:50:23 EDT" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- dsAlgo.Pages.Test.QueuePageTest -->
+      <class name="dsAlgo.Pages.Test.TreePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:51:13 EDT" name="setup" finished-at="2022-05-06T06:51:21 EDT" duration-ms="8038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitleTest()[pri:1, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:51:21 EDT" name="verifyTitleTest" description="verifying Tree title in TreePage test" finished-at="2022-05-06T06:51:22 EDT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:51:22 EDT" name="teardown" finished-at="2022-05-06T06:51:23 EDT" duration-ms="977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:51:23 EDT" name="setup" finished-at="2022-05-06T06:51:31 EDT" duration-ms="8749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="overviewOfTreesRunTest()[pri:2, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:51:31 EDT" name="overviewOfTreesRunTest" description="verifying overviewOfTrees actions in Tree test" finished-at="2022-05-06T06:51:35 EDT" duration-ms="3068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overviewOfTreesRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:51:35 EDT" name="teardown" finished-at="2022-05-06T06:51:36 EDT" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:51:36 EDT" name="setup" finished-at="2022-05-06T06:51:43 EDT" duration-ms="7656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TerminologiesRunTest()[pri:3, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:51:43 EDT" name="TerminologiesRunTest" description="verifying Terminologies actions in Tree test" finished-at="2022-05-06T06:51:46 EDT" duration-ms="2867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TerminologiesRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:51:46 EDT" name="teardown" finished-at="2022-05-06T06:51:47 EDT" duration-ms="992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:51:47 EDT" name="setup" finished-at="2022-05-06T06:51:55 EDT" duration-ms="7758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TypesofTreestRunTest()[pri:4, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:51:55 EDT" name="TypesofTreestRunTest" description="verifying TypesofTrees actions in Tree test" finished-at="2022-05-06T06:51:58 EDT" duration-ms="3274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TypesofTreestRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:51:58 EDT" name="teardown" finished-at="2022-05-06T06:51:59 EDT" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:51:59 EDT" name="setup" finished-at="2022-05-06T06:52:07 EDT" duration-ms="7772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TreeTraversalsRunTest()[pri:5, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:52:07 EDT" name="TreeTraversalsRunTest" description="verifying TreeTraversals actions in Tree test" finished-at="2022-05-06T06:52:10 EDT" duration-ms="3176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TreeTraversalsRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:52:10 EDT" name="teardown" finished-at="2022-05-06T06:52:11 EDT" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:52:11 EDT" name="setup" finished-at="2022-05-06T06:52:20 EDT" duration-ms="8151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="traversalsIllustrationRunTest()[pri:6, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:52:20 EDT" name="traversalsIllustrationRunTest" description="verifying traversalsIllustration actions in Tree test" finished-at="2022-05-06T06:52:22 EDT" duration-ms="2843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- traversalsIllustrationRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:52:22 EDT" name="teardown" finished-at="2022-05-06T06:52:23 EDT" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:52:23 EDT" name="setup" finished-at="2022-05-06T06:52:31 EDT" duration-ms="7928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BinaryTreesElementRunTest()[pri:7, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:52:31 EDT" name="BinaryTreesElementRunTest" description="verifying BinaryTreesElement actions in Tree test" finished-at="2022-05-06T06:52:34 EDT" duration-ms="3107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BinaryTreesElementRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:52:34 EDT" name="teardown" finished-at="2022-05-06T06:52:35 EDT" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:52:35 EDT" name="setup" finished-at="2022-05-06T06:52:44 EDT" duration-ms="8658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TypesofBinaryTreesRunTest()[pri:8, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:52:44 EDT" name="TypesofBinaryTreesRunTest" description="verifying TypesofBinaryTrees actions in Tree test" finished-at="2022-05-06T06:52:47 EDT" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TypesofBinaryTreesRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:52:47 EDT" name="teardown" finished-at="2022-05-06T06:52:48 EDT" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:52:48 EDT" name="setup" finished-at="2022-05-06T06:52:57 EDT" duration-ms="8217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ImplementationinPythonRunTest()[pri:9, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:52:57 EDT" name="ImplementationinPythonRunTest" description="verifying ImplementationinPython actions in Tree test" finished-at="2022-05-06T06:53:00 EDT" duration-ms="3198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImplementationinPythonRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:00 EDT" name="teardown" finished-at="2022-05-06T06:53:01 EDT" duration-ms="1203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:01 EDT" name="setup" finished-at="2022-05-06T06:53:09 EDT" duration-ms="7861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BinaryTreeTraversalsRunTest()[pri:10, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:09 EDT" name="BinaryTreeTraversalsRunTest" description="verifying BinaryTreeTraversals actions in Tree test" finished-at="2022-05-06T06:53:12 EDT" duration-ms="2809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BinaryTreeTraversalsRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:12 EDT" name="teardown" finished-at="2022-05-06T06:53:13 EDT" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:13 EDT" name="setup" finished-at="2022-05-06T06:53:21 EDT" duration-ms="8389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ImplementationofBinaryTreesRunTest()[pri:11, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:21 EDT" name="ImplementationofBinaryTreesRunTest" description="verifying ImplementationofBinaryTrees actions in Tree test" finished-at="2022-05-06T06:53:24 EDT" duration-ms="3299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImplementationofBinaryTreesRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:24 EDT" name="teardown" finished-at="2022-05-06T06:53:25 EDT" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:25 EDT" name="setup" finished-at="2022-05-06T06:53:34 EDT" duration-ms="8750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ApplicationsofBinarytreesRunTest()[pri:12, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:34 EDT" name="ApplicationsofBinarytreesRunTest" description="verifying ApplicationsofBinarytrees actions in Tree test" finished-at="2022-05-06T06:53:37 EDT" duration-ms="2896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationsofBinarytreesRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:37 EDT" name="teardown" finished-at="2022-05-06T06:53:38 EDT" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:38 EDT" name="setup" finished-at="2022-05-06T06:53:46 EDT" duration-ms="7858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BinarySearchTreesRunTest()[pri:13, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:46 EDT" name="BinarySearchTreesRunTest" description="verifying BinarySearchTrees actions in Tree test" finished-at="2022-05-06T06:53:50 EDT" duration-ms="3857" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [10] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [10] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at dsAlgo.Pages.Test.TreePageTest.BinarySearchTreesRunTest(TreePageTest.java:190)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BinarySearchTreesRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:50 EDT" name="teardown" finished-at="2022-05-06T06:53:51 EDT" duration-ms="933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:51 EDT" name="setup" finished-at="2022-05-06T06:53:59 EDT" duration-ms="8120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ImplementationOfBSTRunTest()[pri:14, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:53:59 EDT" name="ImplementationOfBSTRunTest" description="verifying ImplementationOfBST actions in Tree test" finished-at="2022-05-06T06:54:03 EDT" duration-ms="3664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImplementationOfBSTRunTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:dsAlgo.Pages.Test.TreePageTest@71ea1fda]" started-at="2022-05-06T06:54:03 EDT" name="teardown" finished-at="2022-05-06T06:54:04 EDT" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- dsAlgo.Pages.Test.TreePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

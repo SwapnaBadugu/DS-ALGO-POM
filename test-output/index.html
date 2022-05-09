@@ -1,0 +1,2024 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Learnings\Java\DSALgoPAgeObjectModel\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">55 methods, 2 failed,   53 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="BinarySearchTreesRunTest">BinarySearchTreesRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.LinkedListPageTest" class="method navigator-link" hash-for-method="implementLinkedListpythonRunTest">implementLinkedListpythonRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.ArrayPageTest" class="method navigator-link" hash-for-method="ApplicationsofArrayRunTest">ApplicationsofArrayRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="ApplicationsofBinarytreesRunTest">ApplicationsofBinarytreesRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.ArrayPageTest" class="method navigator-link" hash-for-method="ArraysinPythonRunTest">ArraysinPythonRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.ArrayPageTest" class="method navigator-link" hash-for-method="ArraysusingListRunTest">ArraysusingListRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.ArrayPageTest" class="method navigator-link" hash-for-method="BasicOperationsinListRunTest">BasicOperationsinListRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="BinaryTreeTraversalsRunTest">BinaryTreeTraversalsRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="BinaryTreesElementRunTest">BinaryTreesElementRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="ImplementationOfBSTRunTest">ImplementationOfBSTRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="ImplementationinPythonRunTest">ImplementationinPythonRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="ImplementationofBinaryTreesRunTest">ImplementationofBinaryTreesRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.QueuePageTest" class="method navigator-link" hash-for-method="ImplementationofQueueinPythonRunTest">ImplementationofQueueinPythonRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.QueuePageTest" class="method navigator-link" hash-for-method="ImplementationusingarrayRunTest">ImplementationusingarrayRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.QueuePageTest" class="method navigator-link" hash-for-method="ImplementationusingcollectionsRunTest">ImplementationusingcollectionsRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.LinkedListPageTest" class="method navigator-link" hash-for-method="InsertionElementRunTest">InsertionElementRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.LinkedListPageTest" class="method navigator-link" hash-for-method="IntroductionRunTest">IntroductionRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.SigninPageTest" class="method navigator-link" hash-for-method="SigninPageTest(dsAlgo.Entities.UserProfileInfo@16021f6e)">SigninPageTest(dsAlgo.Entities.UserProfileInfo@16021f6e)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="TerminologiesRunTest">TerminologiesRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="TreeTraversalsRunTest">TreeTraversalsRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="TypesofBinaryTreesRunTest">TypesofBinaryTreesRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="TypesofTreestRunTest">TypesofTreestRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.HomePageTest" class="method navigator-link" hash-for-method="ValidateTextTest">ValidateTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.SigninPageTest" class="method navigator-link" hash-for-method="ValidateTextTest">ValidateTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.StackPageTest" class="method navigator-link" hash-for-method="applicationsRunTest">applicationsRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.HomePageTest" class="method navigator-link" hash-for-method="clickonArrayPage">clickonArrayPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.HomePageTest" class="method navigator-link" hash-for-method="clickonDataStructuresPage">clickonDataStructuresPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.HomePageTest" class="method navigator-link" hash-for-method="clickonGraphPage">clickonGraphPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.HomePageTest" class="method navigator-link" hash-for-method="clickonLinkedListPage">clickonLinkedListPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.HomePageTest" class="method navigator-link" hash-for-method="clickonQueuePage">clickonQueuePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.HomePageTest" class="method navigator-link" hash-for-method="clickonStackPage">clickonStackPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.HomePageTest" class="method navigator-link" hash-for-method="clickonTreePage">clickonTreePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.LinkedListPageTest" class="method navigator-link" hash-for-method="creatingLinkedLIstRunTest">creatingLinkedLIstRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.DataStructurePageTest" class="method navigator-link" hash-for-method="dataStructureTest">dataStructureTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.LinkedListPageTest" class="method navigator-link" hash-for-method="deletionRunTest">deletionRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.ArrayPageTest" class="method navigator-link" hash-for-method="getTitleApplicationsofArrayTest">getTitleApplicationsofArrayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.ArrayPageTest" class="method navigator-link" hash-for-method="getTitleArrayinpythonTest">getTitleArrayinpythonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.ArrayPageTest" class="method navigator-link" hash-for-method="getTitleArrayusingListTest">getTitleArrayusingListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.ArrayPageTest" class="method navigator-link" hash-for-method="getTitleBasicOperationsinListTest">getTitleBasicOperationsinListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.GraphPageTest" class="method navigator-link" hash-for-method="graphElementRunTest">graphElementRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.GraphPageTest" class="method navigator-link" hash-for-method="graphRepresentationsRunTest">graphRepresentationsRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.StackPageTest" class="method navigator-link" hash-for-method="implementationRunTest">implementationRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.StackPageTest" class="method navigator-link" hash-for-method="operationsinStackRunTest">operationsinStackRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="overviewOfTreesRunTest">overviewOfTreesRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.QueuePageTest" class="method navigator-link" hash-for-method="queueOperationsRunTest">queueOperationsRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.LinkedListPageTest" class="method navigator-link" hash-for-method="traversalRunTest">traversalRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="traversalsIllustrationRunTest">traversalsIllustrationRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.LinkedListPageTest" class="method navigator-link" hash-for-method="typesofLinkedListRunTest">typesofLinkedListRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.QueuePageTest" class="method navigator-link" hash-for-method="verifyTitleTest">verifyTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.GraphPageTest" class="method navigator-link" hash-for-method="verifyTitleTest">verifyTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.TreePageTest" class="method navigator-link" hash-for-method="verifyTitleTest">verifyTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.DataStructurePageTest" class="method navigator-link" hash-for-method="verifyTitleTest">verifyTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.LinkedListPageTest" class="method navigator-link" hash-for-method="verifyTitleTest">verifyTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.StackPageTest" class="method navigator-link" hash-for-method="verifyTitleTest">verifyTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="dsAlgo.Pages.Test.ArrayPageTest" class="method navigator-link" hash-for-method="verifyTitleTest">verifyTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">dsAlgo.Pages.Test.TreePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BinarySearchTreesRunTest">
+                  </a> <!-- BinarySearchTreesRunTest -->
+                  <span class="method-name">BinarySearchTreesRunTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [10] but found []
+	at dsAlgo.Pages.Test.TreePageTest.BinarySearchTreesRunTest(TreePageTest.java:190)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(verifying BinarySearchTrees actions in Tree test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">dsAlgo.Pages.Test.LinkedListPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="implementLinkedListpythonRunTest">
+                  </a> <!-- implementLinkedListpythonRunTest -->
+                  <span class="method-name">implementLinkedListpythonRunTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Try here&gt;&gt;&gt;&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;VENKAT-LAPPY&apos;, ip: &apos;10.0.0.161&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68c91a89ca8bfb16fc15838b44401d39, findElement {using=link text, value=Try here&gt;&gt;&gt;}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62297/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68c91a89ca8bfb16fc15838b44401d39
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at dsAlgo.Pages.LinkedListPage.implementLinkedListpythonRun(LinkedListPage.java:123)
+	at dsAlgo.Pages.Test.LinkedListPageTest.implementLinkedListpythonRunTest(LinkedListPageTest.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(verifying implementLinkedListpython actions in LinkedListPage test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dsAlgo.Pages.Test.QueuePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ImplementationofQueueinPythonRunTest">
+                  </a> <!-- ImplementationofQueueinPythonRunTest -->
+                  <span class="method-name">ImplementationofQueueinPythonRunTest</span>
+                  <em>
+(verifying ImplementationofQueueinPython actions in Queue test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ImplementationusingarrayRunTest">
+                  </a> <!-- ImplementationusingarrayRunTest -->
+                  <span class="method-name">ImplementationusingarrayRunTest</span>
+                  <em>
+(verifying Implementationusingarray actions in Queue test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ImplementationusingcollectionsRunTest">
+                  </a> <!-- ImplementationusingcollectionsRunTest -->
+                  <span class="method-name">ImplementationusingcollectionsRunTest</span>
+                  <em>
+(verifying Implementationusingcollections actions in Queue test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="queueOperationsRunTest">
+                  </a> <!-- queueOperationsRunTest -->
+                  <span class="method-name">queueOperationsRunTest</span>
+                  <em>
+(verifying queueOperations actions in Queue test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleTest">
+                  </a> <!-- verifyTitleTest -->
+                  <span class="method-name">verifyTitleTest</span>
+                  <em>
+(verifying Queue title in QueuePage test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dsAlgo.Pages.Test.TreePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ApplicationsofBinarytreesRunTest">
+                  </a> <!-- ApplicationsofBinarytreesRunTest -->
+                  <span class="method-name">ApplicationsofBinarytreesRunTest</span>
+                  <em>
+(verifying ApplicationsofBinarytrees actions in Tree test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BinaryTreeTraversalsRunTest">
+                  </a> <!-- BinaryTreeTraversalsRunTest -->
+                  <span class="method-name">BinaryTreeTraversalsRunTest</span>
+                  <em>
+(verifying BinaryTreeTraversals actions in Tree test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BinaryTreesElementRunTest">
+                  </a> <!-- BinaryTreesElementRunTest -->
+                  <span class="method-name">BinaryTreesElementRunTest</span>
+                  <em>
+(verifying BinaryTreesElement actions in Tree test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ImplementationOfBSTRunTest">
+                  </a> <!-- ImplementationOfBSTRunTest -->
+                  <span class="method-name">ImplementationOfBSTRunTest</span>
+                  <em>
+(verifying ImplementationOfBST actions in Tree test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ImplementationinPythonRunTest">
+                  </a> <!-- ImplementationinPythonRunTest -->
+                  <span class="method-name">ImplementationinPythonRunTest</span>
+                  <em>
+(verifying ImplementationinPython actions in Tree test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ImplementationofBinaryTreesRunTest">
+                  </a> <!-- ImplementationofBinaryTreesRunTest -->
+                  <span class="method-name">ImplementationofBinaryTreesRunTest</span>
+                  <em>
+(verifying ImplementationofBinaryTrees actions in Tree test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TerminologiesRunTest">
+                  </a> <!-- TerminologiesRunTest -->
+                  <span class="method-name">TerminologiesRunTest</span>
+                  <em>
+(verifying Terminologies actions in Tree test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TreeTraversalsRunTest">
+                  </a> <!-- TreeTraversalsRunTest -->
+                  <span class="method-name">TreeTraversalsRunTest</span>
+                  <em>
+(verifying TreeTraversals actions in Tree test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TypesofBinaryTreesRunTest">
+                  </a> <!-- TypesofBinaryTreesRunTest -->
+                  <span class="method-name">TypesofBinaryTreesRunTest</span>
+                  <em>
+(verifying TypesofBinaryTrees actions in Tree test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TypesofTreestRunTest">
+                  </a> <!-- TypesofTreestRunTest -->
+                  <span class="method-name">TypesofTreestRunTest</span>
+                  <em>
+(verifying TypesofTrees actions in Tree test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="overviewOfTreesRunTest">
+                  </a> <!-- overviewOfTreesRunTest -->
+                  <span class="method-name">overviewOfTreesRunTest</span>
+                  <em>
+(verifying overviewOfTrees actions in Tree test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="traversalsIllustrationRunTest">
+                  </a> <!-- traversalsIllustrationRunTest -->
+                  <span class="method-name">traversalsIllustrationRunTest</span>
+                  <em>
+(verifying traversalsIllustration actions in Tree test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleTest">
+                  </a> <!-- verifyTitleTest -->
+                  <span class="method-name">verifyTitleTest</span>
+                  <em>
+(verifying Tree title in TreePage test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dsAlgo.Pages.Test.DataStructurePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataStructureTest">
+                  </a> <!-- dataStructureTest -->
+                  <span class="method-name">dataStructureTest</span>
+                  <em>
+(verifying DataStructure page actions test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleTest">
+                  </a> <!-- verifyTitleTest -->
+                  <span class="method-name">verifyTitleTest</span>
+                  <em>
+(verifying DataStructure page title test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dsAlgo.Pages.Test.GraphPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="graphElementRunTest">
+                  </a> <!-- graphElementRunTest -->
+                  <span class="method-name">graphElementRunTest</span>
+                  <em>
+(verifying graph actions in Graph test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="graphRepresentationsRunTest">
+                  </a> <!-- graphRepresentationsRunTest -->
+                  <span class="method-name">graphRepresentationsRunTest</span>
+                  <em>
+(verifying graphRepresentations actions in Graph test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleTest">
+                  </a> <!-- verifyTitleTest -->
+                  <span class="method-name">verifyTitleTest</span>
+                  <em>
+(verifying Graph title in GrpahPage test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dsAlgo.Pages.Test.StackPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applicationsRunTest">
+                  </a> <!-- applicationsRunTest -->
+                  <span class="method-name">applicationsRunTest</span>
+                  <em>
+(verifying applications actions in Stack test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="implementationRunTest">
+                  </a> <!-- implementationRunTest -->
+                  <span class="method-name">implementationRunTest</span>
+                  <em>
+(verifying implementation actions in Stack test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="operationsinStackRunTest">
+                  </a> <!-- operationsinStackRunTest -->
+                  <span class="method-name">operationsinStackRunTest</span>
+                  <em>
+(verifying operationsinStack actions in Stack test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleTest">
+                  </a> <!-- verifyTitleTest -->
+                  <span class="method-name">verifyTitleTest</span>
+                  <em>
+(verifying Stack title in StackPage test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dsAlgo.Pages.Test.ArrayPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ApplicationsofArrayRunTest">
+                  </a> <!-- ApplicationsofArrayRunTest -->
+                  <span class="method-name">ApplicationsofArrayRunTest</span>
+                  <em>
+(verifying ApplicationsofArray actions test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ArraysinPythonRunTest">
+                  </a> <!-- ArraysinPythonRunTest -->
+                  <span class="method-name">ArraysinPythonRunTest</span>
+                  <em>
+(verifying ArraysinPython actions test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ArraysusingListRunTest">
+                  </a> <!-- ArraysusingListRunTest -->
+                  <span class="method-name">ArraysusingListRunTest</span>
+                  <em>
+(verifying ArraysusingList actions test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BasicOperationsinListRunTest">
+                  </a> <!-- BasicOperationsinListRunTest -->
+                  <span class="method-name">BasicOperationsinListRunTest</span>
+                  <em>
+(verifying BasicOperationsinList action test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTitleApplicationsofArrayTest">
+                  </a> <!-- getTitleApplicationsofArrayTest -->
+                  <span class="method-name">getTitleApplicationsofArrayTest</span>
+                  <em>
+(To check ApplicationsofArray  title in Array page test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTitleArrayinpythonTest">
+                  </a> <!-- getTitleArrayinpythonTest -->
+                  <span class="method-name">getTitleArrayinpythonTest</span>
+                  <em>
+(verifying Arrayinpython title in Array page test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTitleArrayusingListTest">
+                  </a> <!-- getTitleArrayusingListTest -->
+                  <span class="method-name">getTitleArrayusingListTest</span>
+                  <em>
+(verifying ArrayusingList title in Array page test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTitleBasicOperationsinListTest">
+                  </a> <!-- getTitleBasicOperationsinListTest -->
+                  <span class="method-name">getTitleBasicOperationsinListTest</span>
+                  <em>
+(verifying BasicOpertaionsinList title in Array page test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleTest">
+                  </a> <!-- verifyTitleTest -->
+                  <span class="method-name">verifyTitleTest</span>
+                  <em>
+(verifying Array page title test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dsAlgo.Pages.Test.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateTextTest">
+                  </a> <!-- ValidateTextTest -->
+                  <span class="method-name">ValidateTextTest</span>
+                  <em>
+(verifying Signin page title test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonArrayPage">
+                  </a> <!-- clickonArrayPage -->
+                  <span class="method-name">clickonArrayPage</span>
+                  <em>
+(verifying successful click on Array in HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonDataStructuresPage">
+                  </a> <!-- clickonDataStructuresPage -->
+                  <span class="method-name">clickonDataStructuresPage</span>
+                  <em>
+(verifying successful click on data Structures in HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonGraphPage">
+                  </a> <!-- clickonGraphPage -->
+                  <span class="method-name">clickonGraphPage</span>
+                  <em>
+(verifying successful click on graph in HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonLinkedListPage">
+                  </a> <!-- clickonLinkedListPage -->
+                  <span class="method-name">clickonLinkedListPage</span>
+                  <em>
+(verifying successful click on LinkedList in HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonQueuePage">
+                  </a> <!-- clickonQueuePage -->
+                  <span class="method-name">clickonQueuePage</span>
+                  <em>
+(verifying successful click on queue in HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonStackPage">
+                  </a> <!-- clickonStackPage -->
+                  <span class="method-name">clickonStackPage</span>
+                  <em>
+(verifying successful click stack in HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonTreePage">
+                  </a> <!-- clickonTreePage -->
+                  <span class="method-name">clickonTreePage</span>
+                  <em>
+(verifying successful click on tree in HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dsAlgo.Pages.Test.LinkedListPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InsertionElementRunTest">
+                  </a> <!-- InsertionElementRunTest -->
+                  <span class="method-name">InsertionElementRunTest</span>
+                  <em>
+(verifying InsertionElement actions in LinkedListPage test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IntroductionRunTest">
+                  </a> <!-- IntroductionRunTest -->
+                  <span class="method-name">IntroductionRunTest</span>
+                  <em>
+(verifying Introduction actions in LinkedListPage test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="creatingLinkedLIstRunTest">
+                  </a> <!-- creatingLinkedLIstRunTest -->
+                  <span class="method-name">creatingLinkedLIstRunTest</span>
+                  <em>
+(verifying creatingLinkedLIst actions in LinkedListPage test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletionRunTest">
+                  </a> <!-- deletionRunTest -->
+                  <span class="method-name">deletionRunTest</span>
+                  <em>
+(verifying deletion actions in LinkedListPage test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="traversalRunTest">
+                  </a> <!-- traversalRunTest -->
+                  <span class="method-name">traversalRunTest</span>
+                  <em>
+(verifying traversal actions in LinkedListPage test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="typesofLinkedListRunTest">
+                  </a> <!-- typesofLinkedListRunTest -->
+                  <span class="method-name">typesofLinkedListRunTest</span>
+                  <em>
+(verifying typesofLinkedList actions in LinkedListPage test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleTest">
+                  </a> <!-- verifyTitleTest -->
+                  <span class="method-name">verifyTitleTest</span>
+                  <em>
+(verifying Linked List title in Linked ListPage test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dsAlgo.Pages.Test.SigninPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SigninPageTest(dsAlgo.Entities.UserProfileInfo@16021f6e)">
+                  </a> <!-- SigninPageTest(dsAlgo.Entities.UserProfileInfo@16021f6e) -->
+                  <span class="method-name">SigninPageTest</span>
+                  <span class="parameters">(dsAlgo.Entities.UserProfileInfo@16021f6e)</span>
+                  <em>
+(login into app test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateTextTest">
+                  </a> <!-- ValidateTextTest -->
+                  <span class="method-name">ValidateTextTest</span>
+                  <em>
+(verifying Signin page title test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Learnings\Java\DSALgoPAgeObjectModel\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dsAlgo.Pages.Test.ArrayPageTest&quot;/&gt;
+      &lt;class name=&quot;dsAlgo.Pages.Test.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;dsAlgo.Pages.Test.DataStructurePageTest&quot;/&gt;
+      &lt;class name=&quot;dsAlgo.Pages.Test.GraphPageTest&quot;/&gt;
+      &lt;class name=&quot;dsAlgo.Pages.Test.LinkedListPageTest&quot;/&gt;
+      &lt;class name=&quot;dsAlgo.Pages.Test.QueuePageTest&quot;/&gt;
+      &lt;class name=&quot;dsAlgo.Pages.Test.SigninPageTest&quot;/&gt;
+      &lt;class name=&quot;dsAlgo.Pages.Test.StackPageTest&quot;/&gt;
+      &lt;class name=&quot;dsAlgo.Pages.Test.TreePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(55);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'implementLinkedListpythonRunTest')
+data.setCell(0, 2, 'dsAlgo.Pages.Test.LinkedListPageTest')
+data.setCell(0, 3, 10693);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'BinarySearchTreesRunTest')
+data.setCell(1, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(1, 3, 3857);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ImplementationOfBSTRunTest')
+data.setCell(2, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(2, 3, 3664);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'operationsinStackRunTest')
+data.setCell(3, 2, 'dsAlgo.Pages.Test.StackPageTest')
+data.setCell(3, 3, 3480);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ArraysinPythonRunTest')
+data.setCell(4, 2, 'dsAlgo.Pages.Test.ArrayPageTest')
+data.setCell(4, 3, 3352);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ImplementationofBinaryTreesRunTest')
+data.setCell(5, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(5, 3, 3299);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TypesofTreestRunTest')
+data.setCell(6, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(6, 3, 3274);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TypesofBinaryTreesRunTest')
+data.setCell(7, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(7, 3, 3234);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ImplementationinPythonRunTest')
+data.setCell(8, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(8, 3, 3198);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TreeTraversalsRunTest')
+data.setCell(9, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(9, 3, 3176);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'dataStructureTest')
+data.setCell(10, 2, 'dsAlgo.Pages.Test.DataStructurePageTest')
+data.setCell(10, 3, 3145);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ArraysusingListRunTest')
+data.setCell(11, 2, 'dsAlgo.Pages.Test.ArrayPageTest')
+data.setCell(11, 3, 3140);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'BasicOperationsinListRunTest')
+data.setCell(12, 2, 'dsAlgo.Pages.Test.ArrayPageTest')
+data.setCell(12, 3, 3109);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'BinaryTreesElementRunTest')
+data.setCell(13, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(13, 3, 3107);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'typesofLinkedListRunTest')
+data.setCell(14, 2, 'dsAlgo.Pages.Test.LinkedListPageTest')
+data.setCell(14, 3, 3079);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'overviewOfTreesRunTest')
+data.setCell(15, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(15, 3, 3068);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'graphElementRunTest')
+data.setCell(16, 2, 'dsAlgo.Pages.Test.GraphPageTest')
+data.setCell(16, 3, 3011);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ApplicationsofArrayRunTest')
+data.setCell(17, 2, 'dsAlgo.Pages.Test.ArrayPageTest')
+data.setCell(17, 3, 2985);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ApplicationsofBinarytreesRunTest')
+data.setCell(18, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(18, 3, 2896);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TerminologiesRunTest')
+data.setCell(19, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(19, 3, 2867);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'creatingLinkedLIstRunTest')
+data.setCell(20, 2, 'dsAlgo.Pages.Test.LinkedListPageTest')
+data.setCell(20, 3, 2847);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'traversalsIllustrationRunTest')
+data.setCell(21, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(21, 3, 2843);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'IntroductionRunTest')
+data.setCell(22, 2, 'dsAlgo.Pages.Test.LinkedListPageTest')
+data.setCell(22, 3, 2842);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'BinaryTreeTraversalsRunTest')
+data.setCell(23, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(23, 3, 2809);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'graphRepresentationsRunTest')
+data.setCell(24, 2, 'dsAlgo.Pages.Test.GraphPageTest')
+data.setCell(24, 3, 2763);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'implementationRunTest')
+data.setCell(25, 2, 'dsAlgo.Pages.Test.StackPageTest')
+data.setCell(25, 3, 2717);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'applicationsRunTest')
+data.setCell(26, 2, 'dsAlgo.Pages.Test.StackPageTest')
+data.setCell(26, 3, 2663);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'InsertionElementRunTest')
+data.setCell(27, 2, 'dsAlgo.Pages.Test.LinkedListPageTest')
+data.setCell(27, 3, 1941);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'getTitleArrayinpythonTest')
+data.setCell(28, 2, 'dsAlgo.Pages.Test.ArrayPageTest')
+data.setCell(28, 3, 1750);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'ImplementationusingcollectionsRunTest')
+data.setCell(29, 2, 'dsAlgo.Pages.Test.QueuePageTest')
+data.setCell(29, 3, 1730);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'deletionRunTest')
+data.setCell(30, 2, 'dsAlgo.Pages.Test.LinkedListPageTest')
+data.setCell(30, 3, 1699);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'traversalRunTest')
+data.setCell(31, 2, 'dsAlgo.Pages.Test.LinkedListPageTest')
+data.setCell(31, 3, 1626);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'ImplementationofQueueinPythonRunTest')
+data.setCell(32, 2, 'dsAlgo.Pages.Test.QueuePageTest')
+data.setCell(32, 3, 1615);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'ImplementationusingarrayRunTest')
+data.setCell(33, 2, 'dsAlgo.Pages.Test.QueuePageTest')
+data.setCell(33, 3, 1612);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'queueOperationsRunTest')
+data.setCell(34, 2, 'dsAlgo.Pages.Test.QueuePageTest')
+data.setCell(34, 3, 1504);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'SigninPageTest')
+data.setCell(35, 2, 'dsAlgo.Pages.Test.SigninPageTest')
+data.setCell(35, 3, 1373);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'getTitleArrayusingListTest')
+data.setCell(36, 2, 'dsAlgo.Pages.Test.ArrayPageTest')
+data.setCell(36, 3, 1059);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'getTitleBasicOperationsinListTest')
+data.setCell(37, 2, 'dsAlgo.Pages.Test.ArrayPageTest')
+data.setCell(37, 3, 907);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'getTitleApplicationsofArrayTest')
+data.setCell(38, 2, 'dsAlgo.Pages.Test.ArrayPageTest')
+data.setCell(38, 3, 879);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'clickonGraphPage')
+data.setCell(39, 2, 'dsAlgo.Pages.Test.HomePageTest')
+data.setCell(39, 3, 614);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'clickonTreePage')
+data.setCell(40, 2, 'dsAlgo.Pages.Test.HomePageTest')
+data.setCell(40, 3, 610);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'clickonLinkedListPage')
+data.setCell(41, 2, 'dsAlgo.Pages.Test.HomePageTest')
+data.setCell(41, 3, 600);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'clickonStackPage')
+data.setCell(42, 2, 'dsAlgo.Pages.Test.HomePageTest')
+data.setCell(42, 3, 572);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'clickonQueuePage')
+data.setCell(43, 2, 'dsAlgo.Pages.Test.HomePageTest')
+data.setCell(43, 3, 568);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'clickonArrayPage')
+data.setCell(44, 2, 'dsAlgo.Pages.Test.HomePageTest')
+data.setCell(44, 3, 555);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'clickonDataStructuresPage')
+data.setCell(45, 2, 'dsAlgo.Pages.Test.HomePageTest')
+data.setCell(45, 3, 533);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'verifyTitleTest')
+data.setCell(46, 2, 'dsAlgo.Pages.Test.ArrayPageTest')
+data.setCell(46, 3, 449);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'verifyTitleTest')
+data.setCell(47, 2, 'dsAlgo.Pages.Test.DataStructurePageTest')
+data.setCell(47, 3, 239);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'ValidateTextTest')
+data.setCell(48, 2, 'dsAlgo.Pages.Test.HomePageTest')
+data.setCell(48, 3, 223);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'verifyTitleTest')
+data.setCell(49, 2, 'dsAlgo.Pages.Test.TreePageTest')
+data.setCell(49, 3, 219);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'verifyTitleTest')
+data.setCell(50, 2, 'dsAlgo.Pages.Test.LinkedListPageTest')
+data.setCell(50, 3, 206);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'verifyTitleTest')
+data.setCell(51, 2, 'dsAlgo.Pages.Test.GraphPageTest')
+data.setCell(51, 3, 189);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'verifyTitleTest')
+data.setCell(52, 2, 'dsAlgo.Pages.Test.QueuePageTest')
+data.setCell(52, 3, 68);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'verifyTitleTest')
+data.setCell(53, 2, 'dsAlgo.Pages.Test.StackPageTest')
+data.setCell(53, 3, 62);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'ValidateTextTest')
+data.setCell(54, 2, 'dsAlgo.Pages.Test.SigninPageTest')
+data.setCell(54, 3, 22);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">dsAlgo.Pages.Test.ArrayPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleTest</span>
+                <span class="method-start">12426 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">12931 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14034 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTitleArrayinpythonTest</span>
+                <span class="method-start">22601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">24378 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">25415 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ArraysinPythonRunTest</span>
+                <span class="method-start">34401 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">37782 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">38752 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTitleArrayusingListTest</span>
+                <span class="method-start">47787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">48860 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">49938 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ArraysusingListRunTest</span>
+                <span class="method-start">58129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">61302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">62316 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTitleBasicOperationsinListTest</span>
+                <span class="method-start">71071 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">72005 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">72962 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BasicOperationsinListRunTest</span>
+                <span class="method-start">81006 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">84154 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">85114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getTitleApplicationsofArrayTest</span>
+                <span class="method-start">93883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">94774 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">95765 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ApplicationsofArrayRunTest</span>
+                <span class="method-start">103685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">106803 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dsAlgo.Pages.Test.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">107836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateTextTest</span>
+                <span class="method-start">115322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">115572 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">116637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickonDataStructuresPage</span>
+                <span class="method-start">124175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">124732 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">125882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickonArrayPage</span>
+                <span class="method-start">133240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">133810 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">134798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickonLinkedListPage</span>
+                <span class="method-start">141911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">142551 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">143584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickonStackPage</span>
+                <span class="method-start">151365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">151957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">152987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickonQueuePage</span>
+                <span class="method-start">160473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">161071 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">162199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickonGraphPage</span>
+                <span class="method-start">169448 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">170143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">171097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickonTreePage</span>
+                <span class="method-start">178321 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">178969 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dsAlgo.Pages.Test.DataStructurePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">180137 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleTest</span>
+                <span class="method-start">188299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">188549 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">189554 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dataStructureTest</span>
+                <span class="method-start">197479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">200633 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dsAlgo.Pages.Test.GraphPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">201587 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleTest</span>
+                <span class="method-start">209528 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">209726 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">210723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">graphElementRunTest</span>
+                <span class="method-start">220649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">223669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">224746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">graphRepresentationsRunTest</span>
+                <span class="method-start">232404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">235194 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dsAlgo.Pages.Test.LinkedListPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">236385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleTest</span>
+                <span class="method-start">244669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">244887 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">245943 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">IntroductionRunTest</span>
+                <span class="method-start">254569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">257423 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">258502 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">creatingLinkedLIstRunTest</span>
+                <span class="method-start">266625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">269519 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">270450 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">typesofLinkedListRunTest</span>
+                <span class="method-start">278454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">281542 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">282486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">implementLinkedListpythonRunTest</span>
+                <span class="method-start">289800 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">300504 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">302313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InsertionElementRunTest</span>
+                <span class="method-start">308479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">310515 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">311195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">traversalRunTest</span>
+                <span class="method-start">317276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">318947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">319652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deletionRunTest</span>
+                <span class="method-start">325053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">326771 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dsAlgo.Pages.Test.QueuePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">327406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleTest</span>
+                <span class="method-start">333159 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">333283 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">334081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ImplementationofQueueinPythonRunTest</span>
+                <span class="method-start">339666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">341285 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">341993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ImplementationusingcollectionsRunTest</span>
+                <span class="method-start">347928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">349661 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">350335 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ImplementationusingarrayRunTest</span>
+                <span class="method-start">355645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">357260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">357915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">queueOperationsRunTest</span>
+                <span class="method-start">363837 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">365345 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dsAlgo.Pages.Test.SigninPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">365979 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateTextTest</span>
+                <span class="method-start">369605 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">369691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">370436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SigninPageTest(dsAlgo.Entities.UserProfileInfo@16021f6e)</span>
+                <span class="method-start">374830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">376240 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dsAlgo.Pages.Test.StackPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">376926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleTest</span>
+                <span class="method-start">382395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">382467 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">383136 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">operationsinStackRunTest</span>
+                <span class="method-start">389566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">393053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">394043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">implementationRunTest</span>
+                <span class="method-start">401453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">404181 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">405476 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">applicationsRunTest</span>
+                <span class="method-start">412781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">415456 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dsAlgo.Pages.Test.TreePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">416646 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleTest</span>
+                <span class="method-start">424691 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">424920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">425907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">overviewOfTreesRunTest</span>
+                <span class="method-start">434669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">437771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">438814 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TerminologiesRunTest</span>
+                <span class="method-start">446479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">449384 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">450384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TypesofTreestRunTest</span>
+                <span class="method-start">458150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">461433 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">462586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TreeTraversalsRunTest</span>
+                <span class="method-start">470374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">473583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">474608 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">traversalsIllustrationRunTest</span>
+                <span class="method-start">482767 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">485618 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">486598 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BinaryTreesElementRunTest</span>
+                <span class="method-start">494553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">497668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">498617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TypesofBinaryTreesRunTest</span>
+                <span class="method-start">507305 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">510562 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">511523 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ImplementationinPythonRunTest</span>
+                <span class="method-start">519748 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">522955 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">524165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BinaryTreeTraversalsRunTest</span>
+                <span class="method-start">532036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">534861 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">535902 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ImplementationofBinaryTreesRunTest</span>
+                <span class="method-start">544300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">547609 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">548645 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ApplicationsofBinarytreesRunTest</span>
+                <span class="method-start">557404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">560308 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">561410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BinarySearchTreesRunTest</span>
+                <span class="method-start">569295 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">573164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">574118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ImplementationOfBSTRunTest</span>
+                <span class="method-start">582249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">585924 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
